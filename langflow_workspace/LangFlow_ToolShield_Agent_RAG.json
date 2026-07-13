@@ -1090,7 +1090,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "/Users/reachvincj/projects/toolshield-agent/langflow_workspace/toolshield_chroma"
+                "value": ""
               },
               "search_query": {
                 "_input_type": "QueryInput",

@@ -1,0 +1,20 @@
+# Core dependencies for ToolShield Agent
+# Fine-tuning (run in Google Colab)
+unsloth
+transformers
+peft
+torch
+accelerate
+bitsandbytes
+datasets
+trl
+
+# Local inference
+# Install Ollama separately: https://ollama.com/download
+
+# RAG pipeline (LangFlow)
+# Install LangFlow separately: pip install langflow
+chromadb
+
+# Validation utility (stdlib only — no extra dependencies required)
+# python scripts/validate_jsonl.py

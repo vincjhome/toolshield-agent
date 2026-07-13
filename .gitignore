@@ -1,0 +1,50 @@
+# Large model files — download separately
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# LangFlow virtual environment and binary database
+langflow_workspace/.venv/
+langflow_workspace/toolshield_chroma/
+langflow_workspace/logs/
+langflow_workspace/*.db
+
+# Colab upload staging folder
+colab_upload/
+
+# Submission and assignment artifacts
+# (important content preserved in notebooks/, langflow_workspace/, reflection.md)
+vj_assignment1_submission/
+assignment/
+
+# Archive files
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment and secrets
+.env
+*.env
+.env.*
+
+# Claude Code workspace files
+.claude/
+
+# Editor state
+.vscode/settings.json
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
